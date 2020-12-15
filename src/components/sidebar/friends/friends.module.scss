@@ -1,0 +1,33 @@
+.friends {
+  margin-top: 50px;
+  padding: 0 15px;
+
+  &_list {
+    display: flex;
+  }
+}
+.title {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1em;
+}
+.friend {
+  width: 70px;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.avatar {
+  margin-bottom: 10px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

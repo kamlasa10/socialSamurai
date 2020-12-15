@@ -1,0 +1,23 @@
+.dialogs {
+  h1 {
+    margin-bottom: 20px;
+  }
+  &_wrap {
+    display: flex;
+  }
+
+  &_items {
+    margin-right: 50px;
+  }
+
+  &_item {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &_msg {
+    margin-bottom: 12px;
+  }
+}
